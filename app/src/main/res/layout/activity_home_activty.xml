@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8d938b"
+    android:weightSum="3"
+    >
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LinearLayout Weight Sum = 3\nTextView 1, Layout weight = 1"
+        android:layout_gravity="center"
+        android:background="#f2bcbc"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView 2\nLayout weight = 1"
+        android:layout_gravity="center"
+        android:background="#bccff2"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView 3\nLayout weight = 1"
+        android:layout_gravity="center"
+        android:background="#cef2bc"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+</LinearLayout>
